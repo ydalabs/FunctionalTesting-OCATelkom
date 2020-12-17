@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="sign-up-on-web-but-failed-#9;user-failed-to-go-to-registered-page-on-the-website-because-null-password" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\WKMachine2\Documents\Pelatihan Software Quality Assurance Telkom\functional-test-2\features\signupinvalid9.feature">
+            </property>
+        </properties>
+        <testcase name="Given User browse register page Failed Version 9" classname="sign-up-on-web-but-failed-#9;user-failed-to-go-to-registered-page-on-the-website-because-null-password" time="0.0006374">
+        </testcase>
+        <testcase name="And User fill first name to register Failed Version 9" classname="sign-up-on-web-but-failed-#9;user-failed-to-go-to-registered-page-on-the-website-because-null-password" time="0.0002952">
+        </testcase>
+        <testcase name="And User fill last name to register Failed Version 9" classname="sign-up-on-web-but-failed-#9;user-failed-to-go-to-registered-page-on-the-website-because-null-password" time="0.0002241">
+        </testcase>
+        <testcase name="And User fill active email to register Failed Version 9" classname="sign-up-on-web-but-failed-#9;user-failed-to-go-to-registered-page-on-the-website-because-null-password" time="0.0002043">
+        </testcase>
+        <testcase name="And User fill active phone number to register Failed Version 9" classname="sign-up-on-web-but-failed-#9;user-failed-to-go-to-registered-page-on-the-website-because-null-password" time="0.0001713">
+        </testcase>
+        <testcase name="And User fill password to register Failed Version 9" classname="sign-up-on-web-but-failed-#9;user-failed-to-go-to-registered-page-on-the-website-because-null-password" time="0.0001375">
+        </testcase>
+        <testcase name="When User click button create account Failed Version 9" classname="sign-up-on-web-but-failed-#9;user-failed-to-go-to-registered-page-on-the-website-because-null-password" time="0.0001547">
+        </testcase>
+        <testcase name="Then User get alert 9" classname="sign-up-on-web-but-failed-#9;user-failed-to-go-to-registered-page-on-the-website-because-null-password" time="0.0003871">
+        </testcase>
+    </testsuite>
+</testsuites>
