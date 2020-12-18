@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="sending-chat-on-the-chat-feature;user-does-not-success-to-send-the-chat" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/DTI SQA/Project 3/chat_function/features/chat-invalid.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse dashboard page" classname="sending-chat-on-the-chat-feature;user-does-not-success-to-send-the-chat" time="0.0013235">
+        </testcase>
+        <testcase name="And user click chat feature again" classname="sending-chat-on-the-chat-feature;user-does-not-success-to-send-the-chat" time="0.0003477">
+        </testcase>
+        <testcase name="When user does not fill message" classname="sending-chat-on-the-chat-feature;user-does-not-success-to-send-the-chat" time="0.0003858">
+        </testcase>
+        <testcase name="Then user just click send button" classname="sending-chat-on-the-chat-feature;user-does-not-success-to-send-the-chat" time="0.0002716">
+        </testcase>
+    </testsuite>
+    <testsuite name="sending-chat-on-the-chat-feature;user-success-to-send-chat" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/DTI SQA/Project 3/chat_function/features/chat.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse dashboard page" classname="sending-chat-on-the-chat-feature;user-success-to-send-chat" time="0.0020364">
+        </testcase>
+        <testcase name="And user click chat feature" classname="sending-chat-on-the-chat-feature;user-success-to-send-chat" time="0.0004009">
+        </testcase>
+        <testcase name="When user fill message" classname="sending-chat-on-the-chat-feature;user-success-to-send-chat" time="0.0003248">
+        </testcase>
+        <testcase name="Then user click send button" classname="sending-chat-on-the-chat-feature;user-success-to-send-chat" time="0.0003257">
+        </testcase>
+    </testsuite>
+</testsuites>

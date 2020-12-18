@@ -1,0 +1,172 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to send a chat",
+    "elements": [
+      {
+        "id": "sending-chat-on-the-chat-feature;user-does-not-success-to-send-the-chat",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User does not success to send the chat",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 1323500
+            },
+            "line": 8,
+            "match": {
+              "location": "3\\chat_function\\step-definitions\\chat-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click chat feature again",
+            "result": {
+              "status": "passed",
+              "duration": 347700
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\chat_function\\step-definitions\\chat-invalid-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user does not fill message",
+            "result": {
+              "status": "passed",
+              "duration": 385800
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\chat_function\\step-definitions\\chat-invalid-steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user just click send button",
+            "result": {
+              "status": "passed",
+              "duration": 271600
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\chat_function\\step-definitions\\chat-invalid-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 41271579500
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\chat_function\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sending-chat-on-the-chat-feature",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Sending chat on the chat feature",
+    "tags": [],
+    "uri": "D:/DTI SQA/Project 3/chat_function/features/chat-invalid.feature"
+  },
+  {
+    "description": "    As a user\n    I want to be able to send a chat",
+    "elements": [
+      {
+        "id": "sending-chat-on-the-chat-feature;user-success-to-send-chat",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User success to send chat",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 2036400
+            },
+            "line": 8,
+            "match": {
+              "location": "3\\chat_function\\step-definitions\\chat-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click chat feature",
+            "result": {
+              "status": "passed",
+              "duration": 400900
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\chat_function\\step-definitions\\chat-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user fill message",
+            "result": {
+              "status": "passed",
+              "duration": 324800
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\chat_function\\step-definitions\\chat-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click send button",
+            "result": {
+              "status": "passed",
+              "duration": 325700
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\chat_function\\step-definitions\\chat-steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 36289198600
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\chat_function\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sending-chat-on-the-chat-feature",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Sending chat on the chat feature",
+    "tags": [],
+    "uri": "D:/DTI SQA/Project 3/chat_function/features/chat.feature"
+  }
+]
