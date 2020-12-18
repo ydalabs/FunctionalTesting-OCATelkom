@@ -1,0 +1,361 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to login",
+    "elements": [
+      {
+        "id": "login-on-ocatelkom-user-dashboard;valid-login---active-account",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Valid Login - Active Account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page case 1",
+            "result": {
+              "status": "passed",
+              "duration": 4182100
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-valid.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email to login",
+            "result": {
+              "status": "passed",
+              "duration": 580900
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-valid.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password to login",
+            "result": {
+              "status": "passed",
+              "duration": 546100
+            },
+            "line": 10,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-valid.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click login button case 1",
+            "result": {
+              "status": "passed",
+              "duration": 2640000
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-valid.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user redirect to dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 2035600
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-valid.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 35942713400
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-on-ocatelkom-user-dashboard;invalid-login---not-registered-account",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Invalid Login - Not Registered Account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page case 2",
+            "result": {
+              "status": "passed",
+              "duration": 1843700
+            },
+            "line": 16,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill invalid email to login",
+            "result": {
+              "status": "passed",
+              "duration": 428900
+            },
+            "line": 17,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill invalid password to login",
+            "result": {
+              "status": "passed",
+              "duration": 448100
+            },
+            "line": 18,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button case 2",
+            "result": {
+              "status": "passed",
+              "duration": 456900
+            },
+            "line": 19,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user see invalid pop up notification",
+            "result": {
+              "status": "passed",
+              "duration": 3247700
+            },
+            "line": 20,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 28429559400
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-on-ocatelkom-user-dashboard;invalid-login---fill-null-value-to-email-and-password",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Invalid Login - Fill null value to Email and Password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page case 3",
+            "result": {
+              "status": "passed",
+              "duration": 662400
+            },
+            "line": 24,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-null-all-input.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill null to email to login",
+            "result": {
+              "status": "passed",
+              "duration": 2062200
+            },
+            "line": 25,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-null-all-input.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill null to password to login",
+            "result": {
+              "status": "passed",
+              "duration": 417300
+            },
+            "line": 26,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-null-all-input.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button case 3",
+            "result": {
+              "status": "passed",
+              "duration": 405900
+            },
+            "line": 27,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-null-all-input.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user see invalid input validation null user and password input form",
+            "result": {
+              "status": "passed",
+              "duration": 540000
+            },
+            "line": 28,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-null-all-input.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 30219082200
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-on-ocatelkom-user-dashboard;invalid-login---fill-invalid-value-to-email-and-password",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Invalid Login - Fill invalid value to Email and Password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page case 4",
+            "result": {
+              "status": "passed",
+              "duration": 700100
+            },
+            "line": 32,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-value-all-input.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill invalid value to email to login",
+            "result": {
+              "status": "passed",
+              "duration": 442900
+            },
+            "line": 33,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-value-all-input.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill invalid value to password to login",
+            "result": {
+              "status": "passed",
+              "duration": 415500
+            },
+            "line": 34,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-value-all-input.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button case 4",
+            "result": {
+              "status": "passed",
+              "duration": 850400
+            },
+            "line": 35,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-value-all-input.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user see invalid input validation at email and password input form",
+            "result": {
+              "status": "passed",
+              "duration": 611100
+            },
+            "line": 36,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\step-definitions\\login-steps-invalid-value-all-input.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 28137615100
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\DTI\\ocatelkom-functional-testing\\FunctionalTesting-OCATelkom-Login\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-on-ocatelkom-user-dashboard",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Login on Ocatelkom user Dashboard",
+    "tags": [],
+    "uri": "D:/DTI/ocatelkom-functional-testing/FunctionalTesting-OCATelkom-Login/features/login.feature"
+  }
+]

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-on-ocatelkom-user-dashboard;valid-login---active-account" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/DTI/ocatelkom-functional-testing/FunctionalTesting-OCATelkom-Login/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page case 1" classname="login-on-ocatelkom-user-dashboard;valid-login---active-account" time="0.0041821">
+        </testcase>
+        <testcase name="And user fill email to login" classname="login-on-ocatelkom-user-dashboard;valid-login---active-account" time="0.0005809">
+        </testcase>
+        <testcase name="And user fill password to login" classname="login-on-ocatelkom-user-dashboard;valid-login---active-account" time="0.0005461">
+        </testcase>
+        <testcase name="When user click login button case 1" classname="login-on-ocatelkom-user-dashboard;valid-login---active-account" time="0.00264">
+        </testcase>
+        <testcase name="Then user redirect to dashboard page" classname="login-on-ocatelkom-user-dashboard;valid-login---active-account" time="0.0020356">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-on-ocatelkom-user-dashboard;invalid-login---not-registered-account" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/DTI/ocatelkom-functional-testing/FunctionalTesting-OCATelkom-Login/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page case 2" classname="login-on-ocatelkom-user-dashboard;invalid-login---not-registered-account" time="0.0018437">
+        </testcase>
+        <testcase name="And user fill invalid email to login" classname="login-on-ocatelkom-user-dashboard;invalid-login---not-registered-account" time="0.0004289">
+        </testcase>
+        <testcase name="And user fill invalid password to login" classname="login-on-ocatelkom-user-dashboard;invalid-login---not-registered-account" time="0.0004481">
+        </testcase>
+        <testcase name="And user click login button case 2" classname="login-on-ocatelkom-user-dashboard;invalid-login---not-registered-account" time="0.0004569">
+        </testcase>
+        <testcase name="When user see invalid pop up notification" classname="login-on-ocatelkom-user-dashboard;invalid-login---not-registered-account" time="0.0032477">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-on-ocatelkom-user-dashboard;invalid-login---fill-null-value-to-email-and-password" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/DTI/ocatelkom-functional-testing/FunctionalTesting-OCATelkom-Login/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page case 3" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-null-value-to-email-and-password" time="0.0006624">
+        </testcase>
+        <testcase name="And user fill null to email to login" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-null-value-to-email-and-password" time="0.0020622">
+        </testcase>
+        <testcase name="And user fill null to password to login" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-null-value-to-email-and-password" time="0.0004173">
+        </testcase>
+        <testcase name="And user click login button case 3" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-null-value-to-email-and-password" time="0.0004059">
+        </testcase>
+        <testcase name="When user see invalid input validation null user and password input form" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-null-value-to-email-and-password" time="0.00054">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-on-ocatelkom-user-dashboard;invalid-login---fill-invalid-value-to-email-and-password" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/DTI/ocatelkom-functional-testing/FunctionalTesting-OCATelkom-Login/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page case 4" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-invalid-value-to-email-and-password" time="0.0007001">
+        </testcase>
+        <testcase name="And user fill invalid value to email to login" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-invalid-value-to-email-and-password" time="0.0004429">
+        </testcase>
+        <testcase name="And user fill invalid value to password to login" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-invalid-value-to-email-and-password" time="0.0004155">
+        </testcase>
+        <testcase name="And user click login button case 4" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-invalid-value-to-email-and-password" time="0.0008504">
+        </testcase>
+        <testcase name="When user see invalid input validation at email and password input form" classname="login-on-ocatelkom-user-dashboard;invalid-login---fill-invalid-value-to-email-and-password" time="0.0006111">
+        </testcase>
+    </testsuite>
+</testsuites>
