@@ -5,4 +5,8 @@ module.exports = {
 
     invalidemail: "dtidummyyummy@gmail.com",
     invalidpassword: "PILYAnhFK8",
+   
+    chat : "Hallo OCA Telkom",
+    chatInvalid : "",
+    name : "Aya"
 }
